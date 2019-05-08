@@ -1,0 +1,54 @@
+
+ROM used:   334/65536 (1%)
+            334/65536 (1%) including unused fragments
+
+            0.1 Average locations per line
+            0.7 Average locations per statement
+
+RAM used:   38/3968 (1%) at main() level
+            40/3968 (1%) worst case
+
+Stack used: 2 worst case (1 in main + 1 for interrupts)
+Stack size: 31
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+   43    13   3  LecturaDeCadena.c
+  834     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Devices\18F4620.h
+ 1351   359  72  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stdlib.h
+   32     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\stddef.h
+  423   125  25  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\string.h
+   28     0   0  ..\..\..\..\..\Program Files (x86)\PICC\Drivers\ctype.h
+----- -----
+ 2711   497 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     16   2    0    32  1.0  timer_0
+0      6   1    0     5  1.0  isrRDA
+0     82  12    0   231  2.2  MAIN
+0     36   5    0             @const922
+0     36   5    2             @PSTRINGC_9600_31766_31767
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               3
+    Statements              497
+    Comments                923
+    Volume (V)              330
+    Difficulty (D)          3.9
+    Effort to implement (E) 1271
+    Time to implement (T)   1 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   1
+    Maintainability (MI)    108
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  
+00008-000A0   154  0  
+000A2-0FFFE   176  65198  
+
+
+

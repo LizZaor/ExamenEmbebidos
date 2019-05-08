@@ -1,0 +1,5 @@
+>>> Warning 202 "LecturaDeCadena.c" Line 15(6,12): Variable never used:   buffer
+>>> Warning 202 "LecturaDeCadena.c" Line 16(6,12): Variable never used:   cadena
+      Memory usage:   ROM=1%      RAM=1% - 1%
+      0 Errors,  2 Warnings.
+Build Successful.

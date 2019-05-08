@@ -1,0 +1,20 @@
+[PROJECT]
+Target=LecturaDeCadena.hex
+Processor_Text=PIC18F4620
+CCSVersion=5.012
+Compiler=PCH
+[Target Data]
+FileList=LecturaDeCadena.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\
+[LecturaDeCadena.c]
+Type=4
+[mru-list]
+1=LecturaDeCadena.c
+[Opened Files]
+1=LecturaDeCadena.c
+2=..\..\Documentos\Sistemas Embebidos Alumnos\Proyectos\MultiplesContadores.c
+3=
+[Units]
+Count=1
+1=LecturaDeCadena (main)

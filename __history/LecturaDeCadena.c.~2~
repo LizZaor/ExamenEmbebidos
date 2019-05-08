@@ -28,7 +28,7 @@ void isrRDA (void)
 }
 
 void main (void){
-    setup_timer_0(RTCC_INTERNAL | RTCC_DIV_128 | RTCC_8_BIT);
+    setup_timer_0(RTCC_INTERNAL | RTCC_DIV_128);
     set_timer0(5);
     enable_interrupts(int_timer0);
     enable_interrupts(GLOBAL);
